@@ -10,7 +10,7 @@ WORKDIR /app
 # Instalation des dépendances générales avec apt
 RUN apt update && apt install --no-install-recommends -y \
     # Dépendances pour compiler des paquets Python
-    build-essentiel \
+    build-essential \
     # Dépendance pour construire psycopg2
     libpq-dev
     # Eliminer ce qui est inutile
